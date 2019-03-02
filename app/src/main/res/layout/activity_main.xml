@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#22b2ff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/signinemailid"
+        android:hint="Email"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/signinpasswordid"
+        android:hint="Password"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/signinbuttonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ff224e"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Sign In"
+        android:textAppearance="@style/Base.Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:id="@+id/signuptextid"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Are you not registered? Sign Up" />
+
+</LinearLayout>

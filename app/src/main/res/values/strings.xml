@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Doit</string>
+    <string name="option1">Profile</string>
+    <string name="option2">View Profile</string>
+    <string name="option3">Attendence</string>
+    <string name="option4">View Record</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1050615244036",
+    "firebase_url": "https://doit-401e9.firebaseio.com",
+    "project_id": "doit-401e9",
+    "storage_bucket": "doit-401e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050615244036:android:062a209035c1b2a6",
+        "android_client_info": {
+          "package_name": "com.example.asus.doit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050615244036-d9v9n9kts72k399i9htiq2tm4bfqsnh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.doit",
+            "certificate_hash": "9888c285c76e9048518c73cac2cc214b57a6a18f"
+          }
+        },
+        {
+          "client_id": "1050615244036-gknlp75goekt3qho2a2r8pmgqfkk7o6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3jy0XLa9SC7NL6o9RN6gMtCXA7GAMubo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050615244036-gknlp75goekt3qho2a2r8pmgqfkk7o6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
